@@ -1,0 +1,29 @@
+.header {
+    &__content {
+        display: flex;
+        align-items: flex-start;
+        background-color: #FEFEFF;
+        border-radius: 75px;
+        margin-top: 24px;
+    }
+  
+    &__menu {
+        display: flex;
+    }
+
+    &__phone {
+        font-family: 'Gilroy', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        color: #38BFF2;
+        padding-top: 25px;
+        padding-left: 350px;
+    }
+  
+    // @media (max-width: 767px) {
+    //   &__content {
+    //     padding: 22px 0;
+    //   }
+    // }
+  }

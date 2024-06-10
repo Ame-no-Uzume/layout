@@ -1,0 +1,60 @@
+.popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 30;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    
+    &.active {
+        display: block;
+    }
+
+    &__body {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__dialog {
+        background-color: white;
+        width: 635px;
+        margin: auto;
+        position: relative;
+        padding: 80px 54px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__header {
+        font-family: 'Gilroy', sans-serif;
+        color: #22253B;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    &__rights {
+        margin-top: 10px;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.56px;
+        color: #9F9F9F;
+        padding-right: 150px;
+    }
+
+    &__rights-link {
+        color: #F15525;
+    }
+
+    &__button {
+        margin: 20px 270px 0 0;
+    }
+}
